@@ -1,0 +1,5 @@
+module CMySQL [system] {
+  header "<mysql/mysql.h>"
+  link "mysqlclient"
+  export *
+}
