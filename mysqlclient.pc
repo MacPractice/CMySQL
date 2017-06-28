@@ -1,0 +1,9 @@
+prefix=/usr/local/mysql
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: mysqlclient
+Description: MP's swift mysql module
+Version: 0.0.1
+Cflags: -I${includedir}
+Libs: -L${libdir} -lmysqlclient
